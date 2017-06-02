@@ -875,8 +875,10 @@
 					data: {
 						cadenaDeDatos:cadenaDeDatos
 					}, 
-					success: function(resultado){ // En caso de que todo salga bien.
-						if (resultado == "S"){
+					success: function(resultados){ // En caso de que todo salga bien.
+						matrizResultados = JSON.parse(resultados);
+						hecho = matrizResultados.procesado;
+						if (hecho == "S"){
 							$('#' + id_MEC).modal('show');
 							$('#' + id_MEC).on('hidden.bs.modal', function(){
 								if (objetoPrincipal.opciones.accion_de_subida_correcta == 'C'){ // Se limpia el subidor

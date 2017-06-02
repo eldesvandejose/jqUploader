@@ -65,7 +65,8 @@
 		}
 	}
 
-	$resultado = ($fallo)?"N":"S";
+	$resultado = array("procesado"=>($fallo)?"N":"S");
+	$resultado = json_encode($resultado);
 
 	echo $resultado;
 ?>

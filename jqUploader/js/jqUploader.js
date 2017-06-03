@@ -831,7 +831,7 @@
 				if (objetoPrincipal.matrizDeArchivosEnviables.length < objetoPrincipal.opciones.minimo_numero_de_archivos){
 					$(objetoPrincipal).mostrarPieDePlugin(pieDeContenedorDeNumeroDeArchivosInsuficiente);
 					return;
-				} else if (objetoPrincipal.opciones.maximo_numero_de_archivos != 0 && objetoPrincipal.matrizDeArchivosEnviables.length > objetoPrincipal.opciones.minimo_numero_de_archivos){
+				} else if (objetoPrincipal.opciones.maximo_numero_de_archivos != 0 && objetoPrincipal.matrizDeArchivosEnviables.length > objetoPrincipal.opciones.maximo_numero_de_archivos){
 					$(objetoPrincipal).mostrarPieDePlugin(pieDeContenedorDeNumeroDeArchivosExcesivo);
 					return;
 				}

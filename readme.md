@@ -22,4 +22,4 @@ Cómo no podía ser de otro modo, la solución obvia era crear mi propio plugin.
 - Incorpora una herramienta específica de PHP que permite gestionar los archivos enviados, los campos complementarios de cada uno, y los campos adicionales de la página, para grabar los archivos enviados en el servidor, y los datos en una base de datos, de forma cómoda y eficaz.
 - Mensajes en múltiples idiomas. La versión actual (1.0) sólo incorpora inglés de Estados Unidos y español de España, pero, en breve, se añadirán otros idiomas.
 
-Para saber más, visita https://jquploader/misitioenlared.es
+Para saber más, visita https://jquploader/eldesvandejose.com

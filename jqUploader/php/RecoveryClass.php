@@ -78,7 +78,7 @@
 					unset($comp);
 				}
 			}
-			$this->matrizDeCamposDePagina = $this->matrizDeRecibidos[1];
+			$this->matrizDeCamposDePagina = (count($this->matrizDeRecibidos) > 1)?$this->matrizDeRecibidos[1]:[];
 			foreach ($this->matrizDeCamposDePagina as $key=>$value) $this->matrizDeCamposDePagina[$key] = addslashes($value);
 			unset ($this->matrizDeRecibidos);
 		}
